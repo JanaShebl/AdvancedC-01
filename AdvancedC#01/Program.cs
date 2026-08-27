@@ -11,6 +11,12 @@
             // why? generics provide better performance , can be reused , provide clean code and type dafety(no boxing & unboxing)
 
             #endregion
+
+            #region Q2
+
+            // Q2: Write a generic class Container<T> with Add and Get methods.
+
+            #endregion
         }
     }
 }
