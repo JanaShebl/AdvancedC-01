@@ -68,6 +68,13 @@
 
             #endregion
 
+            #region Q9
+
+            // Q9: What is the 'new()' constraint? Write an example.
+            // requires parameterless ctor (it allows you to createnew instance)
+
+            #endregion
+
         }
 
         #region Methods
@@ -88,6 +95,11 @@
         {  return a; }
 
         public static T testClass<T>(T a) where T : class {  return a; }
+
+        public static T testNew<T>() where T : new()
+        {
+            return new T();
+        }
 
         #endregion
 
