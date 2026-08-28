@@ -1,4 +1,6 @@
-﻿namespace AdvancedC_01
+﻿using System.Collections;
+
+namespace AdvancedC_01
 {
     internal class Program
     {
@@ -104,6 +106,12 @@
 
             #endregion
 
+            #region Q14
+
+            // Q14: Write a SafeList<T> that returns default when the index is invalid.
+
+            #endregion
+
         }
 
         #region Methods
@@ -129,6 +137,8 @@
         {
             return new T();
         }
+
+    }
 
         #endregion
 
