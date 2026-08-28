@@ -96,6 +96,14 @@
 
             #endregion
 
+            #region Q13
+
+            // Q13: What does the 'default' keyword do in generics?
+            // بترجع ال default بتاع كل داتا تايب
+            // int = 0 , string = null  ...etc
+
+            #endregion
+
         }
 
         #region Methods
