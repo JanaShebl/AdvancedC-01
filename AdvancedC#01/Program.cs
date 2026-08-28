@@ -157,6 +157,12 @@ namespace AdvancedC_01
 
             #endregion
 
+            #region task
+            // allows the base type to be assigned to a derived class , (in) is used to make the generic type contravariance
+            // covariance allows the derived type to be assigned to a base class ensuring the type safety , out keyword is used with the genirec type as a covariant
+
+            #endregion
+
         }
 
         #region Methods
