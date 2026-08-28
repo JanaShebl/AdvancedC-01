@@ -17,6 +17,14 @@
             // Q2: Write a generic class Container<T> with Add and Get methods.
 
             #endregion
+
+            #region Q3
+
+            // Q3:What are multiple type parameters? Write Pair<TKey,TValue >.
+            // multiple type parameters used in generics when class , interface and method needs more than data type
+             //Pair<int, string> pair = new Pair<int, string>(1,"Jana");
+
+            #endregion
         }
     }
 }
