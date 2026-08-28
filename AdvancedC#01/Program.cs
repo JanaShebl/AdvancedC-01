@@ -89,6 +89,13 @@
 
             #endregion
 
+            #region Q12
+
+            // Q12: How do you apply multiple constraints? Write an example.
+            // we must follow order when we write the multiple constraints (base class -> interface -> new())
+
+            #endregion
+
         }
 
         #region Methods
