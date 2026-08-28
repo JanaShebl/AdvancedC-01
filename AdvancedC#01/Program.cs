@@ -82,6 +82,13 @@
 
             #endregion
 
+            #region Q11
+
+            // Q11: What is the base class constraint? Write an example.
+            // the generic type must be derived from this base class
+
+            #endregion
+
         }
 
         #region Methods

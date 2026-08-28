@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AdvancedC_01
 {
-    internal class Product<T> where T:IRepository<T>
+    internal class Product<T> where T:Item,IRepository<T>
     {
         List<T> list = new List<T>();
         public void Add(T item)
