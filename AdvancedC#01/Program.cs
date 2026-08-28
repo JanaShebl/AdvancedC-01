@@ -119,6 +119,13 @@ namespace AdvancedC_01
 
             #endregion
 
+            #region Q16
+
+            // Q16: What is contravariance? Explain the 'in' keyword.
+            // allows the base type to be assigned to a derived class , (in) is used to make the generic type contravariance
+
+            #endregion
+
         }
 
         #region Methods
