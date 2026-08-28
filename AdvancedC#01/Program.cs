@@ -30,7 +30,16 @@
 
             // Q4: What is a generic method? Write Swap<T> method.
             // generic method => method that the developer doesn't know the type of its parameter or its return type (method that can work with different data types)
-            
+
+            #endregion
+
+            #region Q5
+
+            // Q5: Write a generic method FindMax<T> that finds maximum value
+            //int a = 10;
+            //int b = 2;
+            //Console.WriteLine(FindMax(a, b));
+
             #endregion
         }
 
@@ -41,6 +50,14 @@
             a = b;
             b = temp;
         } 
+
+        public static T FindMax<T>(T a, T b) where T:IComparable
+        {
+            if (a.CompareTo(b)>0) { return a; }
+            return b;
+        }
+
+
         #endregion
 
     }
