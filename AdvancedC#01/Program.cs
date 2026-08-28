@@ -142,6 +142,14 @@ namespace AdvancedC_01
 
             #endregion
 
+            #region Q19
+
+            // Q19: How can you inherit from a generic class?
+            // مش فاهمة السؤال بيورث عادي يعني 
+            // class derived : base
+        
+            #endregion
+
         }
 
         #region Methods
