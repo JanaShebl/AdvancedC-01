@@ -75,6 +75,13 @@
 
             #endregion
 
+            #region Q10
+
+            // Q10: What is the interface constraint? Write an example.
+            // interface constraint requires that the type must implepment this interface
+
+            #endregion
+
         }
 
         #region Methods
