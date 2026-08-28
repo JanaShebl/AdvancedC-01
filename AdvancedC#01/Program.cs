@@ -48,6 +48,15 @@
             // generic interface => interface that work with different data types using type parameter
 
             #endregion
+
+            #region Q7
+
+            // Q7: What is the 'struct' constraint? Write an example.
+            // struct constraint => allows only value type like int,double,struct and nullable
+            //testStruct<int>(2);
+            //testStruct<string>("jana");
+
+            #endregion
         }
 
         #region Methods
@@ -64,6 +73,8 @@
             return b;
         }
 
+        public static T testStruct<T>(T a) where T:struct
+        {  return a; }
 
         #endregion
 
