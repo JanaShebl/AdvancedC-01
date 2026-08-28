@@ -41,6 +41,13 @@
             //Console.WriteLine(FindMax(a, b));
 
             #endregion
+
+            #region Q6
+
+            // Q6: What is a generic interface? Write IRepository<T>.
+            // generic interface => interface that work with different data types using type parameter
+
+            #endregion
         }
 
         #region Methods
