@@ -57,6 +57,17 @@
             //testStruct<string>("jana");
 
             #endregion
+
+            #region Q8
+
+            // Q8: What is the 'class' constraint? Write an example.
+            // 'class' constraint allows only ref. type like string,array,interfaces and classes
+
+            //testClass<int>(2);
+            //testClass<string>("jana");
+
+            #endregion
+
         }
 
         #region Methods
@@ -75,6 +86,8 @@
 
         public static T testStruct<T>(T a) where T:struct
         {  return a; }
+
+        public static T testClass<T>(T a) where T : class {  return a; }
 
         #endregion
 
