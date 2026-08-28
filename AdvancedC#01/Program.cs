@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Numerics;
 
 namespace AdvancedC_01
 {
@@ -131,6 +132,13 @@ namespace AdvancedC_01
             // Q17: What is the difference between covariance and contravariance ?
             // contravariance allows the base type to be assigned to a derived class using in key word
             // covariance allows the derived type to be assigned to a base class using out key word
+
+            #endregion
+
+            #region Q18
+
+            // Q18: How do static members work in generic types?
+            // each type has its static object
 
             #endregion
 
