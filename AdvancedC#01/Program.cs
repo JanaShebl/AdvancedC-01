@@ -22,9 +22,26 @@
 
             // Q3:What are multiple type parameters? Write Pair<TKey,TValue >.
             // multiple type parameters used in generics when class , interface and method needs more than data type
-             //Pair<int, string> pair = new Pair<int, string>(1,"Jana");
+            //Pair<int, string> pair = new Pair<int, string>(1,"Jana");
 
             #endregion
+
+            #region Q4
+
+            // Q4: What is a generic method? Write Swap<T> method.
+            // generic method => method that the developer doesn't know the type of its parameter or its return type (method that can work with different data types)
+            
+            #endregion
         }
+
+        #region Methods
+        public static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+        } 
+        #endregion
+
     }
 }
