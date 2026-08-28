@@ -112,6 +112,13 @@ namespace AdvancedC_01
 
             #endregion
 
+            #region Q15 
+
+            // Q15: What is covariance? Explain the 'out' keyword.
+            // covariance allows the derived type to be assigned to a base class ensuring the type safety , out keyword is used with the genirec type as a covariant
+
+            #endregion
+
         }
 
         #region Methods
@@ -143,4 +150,3 @@ namespace AdvancedC_01
         #endregion
 
     }
-}
