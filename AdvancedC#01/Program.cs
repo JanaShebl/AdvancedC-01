@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.ComponentModel;
 using System.Numerics;
 
 namespace AdvancedC_01
@@ -147,7 +148,13 @@ namespace AdvancedC_01
             // Q19: How can you inherit from a generic class?
             // مش فاهمة السؤال بيورث عادي يعني 
             // class derived : base
-        
+
+            #endregion
+
+            #region Q20
+
+            // Q20: Complete Exercise - Create a generic Cache<TKey,TValue > with Add, Get, Remove, Contains, and expiration support.
+
             #endregion
 
         }
