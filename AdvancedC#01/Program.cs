@@ -126,6 +126,14 @@ namespace AdvancedC_01
 
             #endregion
 
+            #region Q17
+
+            // Q17: What is the difference between covariance and contravariance ?
+            // contravariance allows the base type to be assigned to a derived class using in key word
+            // covariance allows the derived type to be assigned to a base class using out key word
+
+            #endregion
+
         }
 
         #region Methods
